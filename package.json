@@ -1,0 +1,36 @@
+{
+  "name": "xxv-cli-doc",
+  "version": "1.0.0",
+  "description": "xxv-cli 文档",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/upmin-l/xxv-cli-doc.git"
+  },
+  "keywords": [],
+  "author": "Melan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/upmin-l/xxv-cli-doc/issues"
+  },
+  "homepage": "https://github.com/upmin-l/xxv-cli-doc#readme",
+  "dependencies": {
+    "vitepress": "^0.22.4"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "stylus": "^0.57.0",
+    "stylus-loader": "^7.0.0"
+  }
+}
