@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/upmin-l/xxv-cli-doc#readme",
   "dependencies": {
+    "sass": "^1.52.0",
     "vitepress": "^0.22.4"
   },
   "engines": {
